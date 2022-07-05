@@ -1,0 +1,85 @@
+.container{
+    position: absolute;
+    display: block;
+    height: 93vh;
+    width: 100%;
+    background-image: url("./img/pattern.jpg");
+    background-size:cover;
+    background-repeat: repeat;
+}
+.welcome{
+    position: relative;
+    display: block;
+    height: 20vw;
+    text-align: center;
+    left: 10%;
+    margin-top: 10%;
+}
+.welcomeTitle{
+    position: relative;
+    display: block;
+    height: 20vw;
+    height: 20vh;
+    text-align: center;
+    left: 25vw;
+    margin-top: 10%;
+    margin-bottom: 20vh;
+    padding-top: 40px;
+    background-color: #e8e8e8be;
+    border-radius: 20px;
+    width: 60vw;
+
+}
+
+.welcomeImage{
+    position: relative;
+    display: block;
+    height: 30vw;
+    left: 10%;
+    right: 50%;
+    margin-top: -20%;
+}
+
+
+.botonLogin{
+    position: relative;
+    display: block;
+    width: 14vw;
+    left: 50%;
+    right: 50%;
+    text-align: center;
+    color:  #E3E4E5;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+}
+
+.boton{
+    text-align: center;
+    background-color: #1DAFA5;
+    width: 14vw;
+    height: 10vh;
+    padding-top: 1.3vw;
+    border-radius: 20px;
+    font-size: 30px;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: none;
+    color: #E3E4E5;
+    left: 50%;
+    right: 50%;
+}
+.pikachu{
+position: relative;
+display: block;
+    max-width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 36vw;
+    margin-top: -30vh;
+
+}
