@@ -16,7 +16,7 @@ React.useEffect(() => {
 const getUserData = async function(res, req){
 
     const token = JSON.stringify(localStorage.token);
-    const response = await fetch("http://localhost:4000/api/v1/auth/user/profile?token=" + token);
+    const response = await fetch("/api/v1/auth/user/profile?token=" + token);
     const objeto = await response.json();
         setUser(objeto);
 
